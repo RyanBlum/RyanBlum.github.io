@@ -1,0 +1,170 @@
+<!DOCTYPE HTML> 
+
+<html>
+<!--------------------------------------------->
+	<head>
+		<title> THE BLUM HOMEPAGE </title>
+		<link rel= "icon" href="flower.png"/>
+		<link rel= "stylesheet" href= "BlumStyleSheet.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	</head>
+<!--------------------------------------------->	
+	<header>
+		<div class="nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+		
+		<div>
+			<h1> RYAN J. BLUM</h1>
+			<h2> SOFTWARE DEVELOPER & DESIGNER   </h2>
+			<p style="text-align: center;" > <img src="flower.png" /></p>
+		</div>
+		
+	</header>
+
+	
+<!--------------------------------------------->
+	<body style="background-color: white" id="home">
+
+	
+<!--------------------------------------------->
+		<div class="intro-text"> “Live in the leading, the spaces in between the rules.”  </br> – Stefan Mumaw
+	
+		</div>
+ 		
+<!--------------------------------------------->
+ 		<img id="one" src="trippy.jpeg" class= "trippy"/>
+
+<!---------------------------------------------> 
+		<div id="about">
+				
+		
+			
+			<div class= "about-title">
+			About Me:
+			</div>
+
+			<div class= "about-info"> 
+
+			<img src="screenshot.png" class= "screenshot"/>
+
+				My name is Ryan James Blum, and I have a passion for art, music, technology, and the natural sciences. In 2019 I earned a B.S. in Applied Biolgy from the Unviersity of Florida. During that time I was able to engage in a variety of academic labratory environments ranging from human biochemistry to invasive plant ecology. However my desire to create and design technological solutions has led me down the path of web and app development! Going forward I plan to create websites and applications as career. Ideally, I would like to combine both my domains of interest by creating software solutions for companies engaging in agriculture, biotechnology, and bioinformatics<br><br>  </div>		
+
+		</div>
+<!---------------------------------------------> 
+	<div class="box red"></div>
+<!---------------------------------------------> 
+		<div id="projects">
+			<div class= "projects-title">
+			Projects:
+			</div>
+
+			<div class= "projects-info">
+				Here I have linked a number of projects that I have been engaged in over the years, from small games to personal websites. </div>	
+
+				<br><br>
+		</div>
+
+<!---------------------------------------------> 
+
+<!---------------------------------------------> 
+	<div id="resume">
+				
+			<div class= "resume-title">Resume:</div>
+
+			<div class= "resume-info"> I have linked a copy of my current resume that is free to download in case you are interested in learning more about my skills and experiences! </div>		
+			<br><br>
+		</div>
+
+<!---------------------------------------------> 
+
+<!---------------------------------------------> 
+<!-----Look at how he organizes the CS structure here!!!------>  
+
+		<div id="contact">
+			<h3 class="contact-title">My Studio Location:</h3>		
+			<section class="contact-map">
+				<p>
+					
+				</p>
+			</section>
+			<section class= "contact-info">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3467.167344109118!2d-82.34500768483146!3d29.65691798202492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e8a381aed544c1%3A0x5ce03585e0d92811!2s1530+NW+6th+Ave%2C+Gainesville%2C+FL+32603!5e0!3m2!1sen!2sus!4v1558225524804!5m2!1sen!2sus" width="500" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<p class= "contact-text"> 1530 NW 6th Avenue <br>
+					Gainesville Fl, 32603 <br>
+					United States of America
+				</p>
+			</section>
+		</div>
+
+<!--------------------------------------------->  
+
+<!--------------------------------------------->  
+<div id="form">
+	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWiRhtOHkXMGOvzKZN5GnOctYQngKTBLS44FqyqYokqRHa3w/viewform?embedded=true" width="640" height="933" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
+
+
+<!--------------------------------------------->  
+		<br>
+		<footer>
+		  <ul>
+		    <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+		    <li><a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+		    <li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
+		  </ul>
+		</footer>
+<!--------------------------------------------->
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('a[href^="#"]').on('click', function(e) {
+      e.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top - 100
+      }, 900, 'swing', function() {
+        window.location.hash = target - 100;
+      });
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('a[href^="#"]').on('click', function(e) {
+      e.preventDefault();
+ 
+      var target = this.hash;
+      var $target = $(target);
+ 
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top - 100
+      }, 900, 'swing', function() {
+        window.location.hash = target - 100;
+      });
+    });
+  });
+</script>
+
+<!--------------------------------------------->	
+	</body>
+	
+</html>
+
+
+
+
+
+
+
+
