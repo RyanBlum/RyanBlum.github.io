@@ -70,7 +70,7 @@ h2 {
   font-size: 1.2rem;
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 100px;
 }
 
 /* -------------------------------*/
@@ -88,23 +88,24 @@ h2 {
 	max-width: 200px;
 	height: auto;
 	padding-top: 0px;
-	padding-right: 25px;
+	padding-right: 50px;
+	padding-left: 50px;
 	padding-bottom: 50px;
 }
 .about-title {
 	text-align: center;
 	font-size: 1.6rem;
 	color: black;
-	padding-top: 20px;
+	padding-top: 50px;
 	padding-bottom: 40px;
 }
 .about-info {
 	padding-left: 10px;
-	padding-right: 20px;
+	padding-right: 50px;
 	padding-bottom: 80px;
 	display: flex;
 	flex-direction: row;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: gray;
 	justify-content: center;
 	align-items: center;
