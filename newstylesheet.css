@@ -1,4 +1,4 @@
-#home{
+.home{
     text-align: center;
     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm23-adj-16_1.jpg?w=400&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-1.1.1&s=781fc7a7183d9bacd7c07fb44917c27b");
     background-size: 100% 100%;
@@ -26,13 +26,13 @@ body{
     background:white;
     background-size: 100% 100%;
 }
-#about{
+.about{
     padding: 100px;
 }
-#projects{
+.projects{
     padding: 100px;
 }
-#contact{
+.contact{
     padding: 100px;
 }
 
