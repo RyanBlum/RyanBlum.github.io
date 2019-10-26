@@ -5,7 +5,7 @@
     box-shadow: 0 0 8px 8px white inset;
     font-size: 50px;
     padding-top: 250px;
-    padding-bottom: 450px;
+    padding-bottom: 250px;
     padding-left: 0px;
     padding-right: 0px;
     color: black;
@@ -56,7 +56,7 @@ body{
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
 
     border-radius: 4px;
   }
