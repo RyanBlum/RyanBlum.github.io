@@ -41,8 +41,8 @@
     text-align: center;
     background-size: 100% 100%;
     font-size: 50px;
-    padding-top: 30%;
-    padding-bottom: 30%;
+    padding-top: 20%;
+    padding-bottom: 10%;
     padding-left: 0px;
     padding-right: 0px;
     color: white;
@@ -56,7 +56,7 @@ body{
 
 }
 .about{
-    padding-top: 150px;
+    padding-top: 20%;
     display: inline-flexbox;
     padding-left: 10%;
     padding-right: 10%;
@@ -128,28 +128,5 @@ footer{
     float: left;
   }
   
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
 
-
-@media screen and (max-width: 1000px) {
-  #home {
-    padding-bottom: 50%;
-    padding-top: 50%;
-  }
-  .header a {
-    padding-bottom: 5%;
-    padding-top: 5%;
-    font-size: 25px;
-  }
-}
 
