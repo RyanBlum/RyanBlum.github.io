@@ -52,7 +52,7 @@
     font-size: 26px;
 }
 body{
-  background-color: white;
+  background-color: black;
 
 }
 .about{
@@ -65,17 +65,16 @@ body{
   float: left;
   font-size: 24px;
   width: 30%;
-  background-color: gray;
+  background-color: whitesmoke;
 
 }
 #aboutright{
   float: left;
   font-size: 24px;
-
   width: 50%;
   padding-left: 50px;
   padding-top: 30px;
-
+  color: white;
 }
 .projects{
     padding: 100px;
@@ -132,13 +131,7 @@ body{
     }
   }
 
-footer {
-    color: white;
-    text-align: center;
-    background: linear-gradient(to bottom,  #808080, #0000);
-    padding: 60px 0;
 
-}
 @media screen and (max-width: 1000px) {
   #home {
     padding-bottom: 50%;
