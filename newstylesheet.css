@@ -12,7 +12,7 @@
     margin-top: 20px;
 }
 #undertext{
-    font-size: 25px;
+    font-size: 26px;
 }
 #info{
     text-align: center;
@@ -26,16 +26,26 @@ body{
     background:white;
     background-size: 100% 100%;
 }
-#about{
+.about{
     padding-top: 150px;
-    padding-left:5%;
-    padding-right:5%;
+    display: inline;
 }
-#projects{
-    padding: 100px;
+#aboutleft{
+  display: inline;
+
 }
-#contact{
+#aboutright{
+  display: inline;
+  font-size: 24px;
+}
+
+.projects{
     padding: 100px;
+
+}
+.contact{
+    padding: 100px;
+
 }
 
 
