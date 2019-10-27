@@ -52,7 +52,7 @@
     font-size: 26px;
 }
 body{
-  background-color: black;
+  background-color: whitesmoke;
 
 }
 .about{
@@ -65,7 +65,7 @@ body{
   float: left;
   font-size: 24px;
   width: 30%;
-  background-color: whitesmoke;
+  background-color: black;
 
 }
 #aboutright{
@@ -74,16 +74,24 @@ body{
   width: 50%;
   padding-left: 50px;
   padding-top: 30px;
-  color: white;
+  color:black;
 }
 .projects{
     padding: 100px;
 
 }
 .contact{
-    padding: 100px;
+  padding-top: 300px;
+  padding-left: 25%;
+
 
 }
+footer{
+  color: white;
+}
+
+
+
 
 
 /* Style the header with a grey background and some padding */
@@ -92,6 +100,7 @@ body{
     background-color:black;
     padding-bottom: 20px;
     padding-top: 20px;
+    padding-right: 10px;
     position: fixed;
     width: 100%;
   }
@@ -104,7 +113,6 @@ body{
     padding: 10px;
     text-decoration: none;
     font-size: 22px;
-
     border-radius: 4px;
   }
   
@@ -116,7 +124,7 @@ body{
   
   /* Float the link section to the right */
   .header-right {
-    float: center;
+    float: left;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
