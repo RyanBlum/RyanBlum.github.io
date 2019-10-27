@@ -4,8 +4,8 @@
     background-size: 100% 100%;
     box-shadow: 0 0 8px 8px white inset;
     font-size: 50px;
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 20%;
+    padding-bottom: 20%;
     padding-left: 0px;
     padding-right: 0px;
     color: black;
@@ -15,8 +15,8 @@
     font-size: 26px;
 }
 body{
-    background:white;
-    background-size: 100% 100%;
+  background-color: white;
+
 }
 .about{
     padding-top: 150px;
