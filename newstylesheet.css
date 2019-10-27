@@ -1,14 +1,51 @@
+
+@import "susy";
+@import "compass/reset";
+
+.stars, .twinkling, .clouds {
+	position:absolute;
+	display:block;
+	top:0; bottom:0;
+	left:0; right:0;
+	width:100%; height:100%;
+}
+
+.stars {
+	z-index: -3;
+	background: #000 url('https://image.ibb.co/mjnygo/stars.png') repeat top center;
+}
+
+.twinkling{
+	z-index: -2;
+	background:transparent url('https://image.ibb.co/ir1DE8/twinkling.png') repeat top center;
+	animation: move-twink-back 200s linear infinite;
+}
+
+.clouds{
+	z-index: -1;
+    background:transparent url('https://image.ibb.co/bT4N7T/clouds.png') repeat top center;
+	animation: move-clouds-back 200s linear infinite;
+}
+
+@keyframes move-twink-back {
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+	from {background-position:0 0;}
+	to {background-position:10000px 0;}
+}
+
 #home{
     text-align: center;
-    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm23-adj-16_1.jpg?w=400&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-1.1.1&s=781fc7a7183d9bacd7c07fb44917c27b");
     background-size: 100% 100%;
-    box-shadow: 0 0 8px 8px white inset;
     font-size: 50px;
     padding-top: 20%;
     padding-bottom: 20%;
     padding-left: 0px;
     padding-right: 0px;
-    color: black;
+    color: white;
     margin-top: 20px;
 }
 #undertext{
@@ -40,7 +77,6 @@ body{
   padding-top: 30px;
 
 }
-
 .projects{
     padding: 100px;
 
@@ -51,12 +87,10 @@ body{
 }
 
 
-
-
 /* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
-    background-color: white;
+    background-color:black;
     padding-bottom: 20px;
     padding-top: 20px;
     position: fixed;
@@ -66,7 +100,7 @@ body{
   /* Style the header links */
   .header a {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -105,7 +139,6 @@ footer {
     padding: 60px 0;
 
 }
-
 @media screen and (max-width: 1000px) {
   #home {
     padding-bottom: 50%;
@@ -116,7 +149,5 @@ footer {
     padding-top: 5%;
     font-size: 32px;
   }
-
-
 }
 
