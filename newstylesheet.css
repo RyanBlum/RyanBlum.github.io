@@ -14,29 +14,28 @@
 #undertext{
     font-size: 26px;
 }
-#info{
-    text-align: center;
-    font-size: 30px;
-    padding: 0px;
-}
-#submitbutton{
-    align-items: center;
-}
 body{
     background:white;
     background-size: 100% 100%;
 }
 .about{
     padding-top: 150px;
-    display: inline;
+    display: inline-flexbox;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #aboutleft{
-  display: inline;
-
+  float: left;
+  font-size: 24px;
+  width: 50%;
+  background-color: aqua;
 }
 #aboutright{
-  display: inline;
+  float: left;
   font-size: 24px;
+  background-color:gray;
+  width: 50%
+
 }
 
 .projects{
