@@ -41,8 +41,8 @@
     text-align: center;
     background-size: 100% 100%;
     font-size: 50px;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 30%;
+    padding-bottom: 30%;
     padding-left: 0px;
     padding-right: 0px;
     color: white;
@@ -64,7 +64,7 @@ body{
 #aboutleft{
   float: left;
   font-size: 24px;
-  width: 30%;
+  width: 40%;
   background-color: black;
 
 }
@@ -82,7 +82,7 @@ body{
 }
 .contact{
   padding-top: 300px;
-  padding-left: 25%;
+
 
 
 }
@@ -101,6 +101,7 @@ footer{
     padding-bottom: 20px;
     padding-top: 20px;
     padding-right: 10px;
+    padding-le: 10px;
     position: fixed;
     width: 100%;
   }
@@ -148,7 +149,7 @@ footer{
   .header a {
     padding-bottom: 5%;
     padding-top: 5%;
-    font-size: 32px;
+    font-size: 25px;
   }
 }
 
