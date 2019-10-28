@@ -1,55 +1,3 @@
-i {
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 5px;
-}
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-@import "susy";
-@import "compass/reset";
-
-.stars, .twinkling, .clouds {
-	position:absolute;
-	display:block;
-	top:0; bottom:0;
-	left:0; right:0;
-  width:100%; height:100%;
-  padding: 0px;
-}
-
-.stars {
-	z-index: -3;
-  background: #000 url('https://image.ibb.co/mjnygo/stars.png') repeat top center;
-  padding: 0px;
-}
-
-.twinkling{
-	z-index: -2;
-	background:transparent url('https://image.ibb.co/ir1DE8/twinkling.png') repeat top center;
-  animation: move-twink-back 200s linear infinite;
-  padding: 0px;
-}
-
-.clouds{
-	z-index: -1;
-    background:transparent url('https://image.ibb.co/bT4N7T/clouds.png') repeat top center;
-  animation: move-clouds-back 200s linear infinite;
-  padding: 0px;
-}
-
-@keyframes move-twink-back {
-	from {background-position:0 0;}
-	to {background-position:-10000px 5000px;}
-}
-
-@keyframes move-clouds-back {
-	from {background-position:0 0;}
-	to {background-position:10000px 0;}
-}
-
 #home{
     text-align: center;
     background-size: 100% 100%;
@@ -73,12 +21,16 @@ body{
     display: inline-flexbox;
     padding-left: 10%;
     padding-right: 10%;
+    z-index: 2;
+    border: solid white 2px;
+
 }
 #aboutleft{
   float: left;
   font-size: 24px;
   width: 40%;
   background-color: black;
+  border: solid white 2px;
 
 }
 #aboutright{
@@ -87,16 +39,20 @@ body{
   width: 50%;
   padding-left: 50px;
   padding-top: 30px;
+  padding-bottom: 30px;
   color:white;
+  border: solid white 2px;
 }
 .projects{
-    padding: 100px;
+
+    border: solid white 2px;
 
 }
 .contact{
   padding-top: 30%;
   text-align: center;
   padding-bottom: 10%;
+  border: solid white 2px;
   
 
 
@@ -150,3 +106,46 @@ footer{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+
+
+@import "susy";
+@import "compass/reset";
+
+.stars, .twinkling, .clouds {
+	position:absolute;
+	display:block;
+	top:0; bottom:0;
+	left:0; right:0;
+  width:100%; height:100%;
+  padding: 0px;
+}
+
+.stars {
+	z-index: -3;
+  background: #000 url('https://image.ibb.co/mjnygo/stars.png') repeat top center;
+  padding: 0px;
+}
+
+.twinkling{
+	z-index: -2;
+	background:transparent url('https://image.ibb.co/ir1DE8/twinkling.png') repeat top center;
+  animation: move-twink-back 200s linear infinite;
+  padding: 0px;
+}
+
+.clouds{
+	z-index: -1;
+    background:transparent url('https://image.ibb.co/bT4N7T/clouds.png') repeat top center;
+  animation: move-clouds-back 200s linear infinite;
+  padding: 0px;
+}
+
+@keyframes move-twink-back {
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+	from {background-position:0 0;}
+	to {background-position:10000px 0;}
+}
