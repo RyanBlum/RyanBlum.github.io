@@ -65,10 +65,10 @@ img{
 #aboutright{
   display: table-cell;
   background-color: whitesmoke;
-  font-size: 24px;
+  font-size: 22px;
   vertical-align: middle;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 hr {
   width: 60%;
