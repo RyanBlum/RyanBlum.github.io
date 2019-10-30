@@ -110,8 +110,9 @@ input[type=submit] {
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
+  
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -136,6 +137,7 @@ footer{
   padding-bottom:5%;
   font-family: cursive;
   font-size: 16px;
+  z-index: -;
 }
 
 
