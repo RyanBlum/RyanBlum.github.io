@@ -79,14 +79,14 @@ hr {
   height: 450px;;
   border-top: solid black 2px;
   padding-top: 5%;
-  padding-bottom: 15%;
+  padding-bottom: 10%;
   text-align: center;
   background-color:white;
 
-
 }
 .slideshow{
-
+  padding-top:1%;
+  max-height: inherit;
 }
 .slidebuttons{
   padding-bottom:100px;
