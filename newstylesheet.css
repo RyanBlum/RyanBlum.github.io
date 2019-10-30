@@ -37,8 +37,8 @@ li a:hover:not(.active) {
 }
 
 .home{
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 30%;
+  padding-bottom: 30%;
   color: whitesmoke;
   text-align: center;
   font-size: 300%;
@@ -79,13 +79,20 @@ hr {
   height: 450px;;
   border-top: solid black 2px;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 15%;
   text-align: center;
   background-color:white;
 
- 
+
+}
+.slideshow{
+
+}
+.slidebuttons{
+  padding-bottom:100px;
 }
 .contact{
+
   border-top: solid black 2px;
   padding-top: 5%;
   padding-bottom: 5%;
