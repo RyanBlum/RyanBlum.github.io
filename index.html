@@ -40,8 +40,27 @@
         
 
         <div class="contact">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfp5p40UVMf-Qcy_-Rtr1viO1vdrCJlTqmLOk464xhRbw9vSA/viewform?embedded=true" width="640" height="707" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Email</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your email..">
+              
+                 
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Let me know what I could do for you!" style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
          </div>
+
+
     </body>
     <footer>
         "Impossible only means that you havent found the solution yet.."
