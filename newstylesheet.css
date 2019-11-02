@@ -37,8 +37,9 @@ li a:hover:not(.active) {
 }
 
 .home{
-  padding-top: 30%;
-  padding-bottom: 30%;
+  height: 400px;
+  padding-top: 20%;
+  padding-bottom: 0%;
   color: whitesmoke;
   text-align: center;
   font-size: 300%;
@@ -50,7 +51,7 @@ li a:hover:not(.active) {
 }
 .about{
   border-top: solid black 2px;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 5%;
   text-align: center;
   background-color: whitesmoke;
@@ -76,9 +77,8 @@ hr {
   margin-right: auto;
 }
 .projects{
-  height: 450px;;
   border-top: solid black 2px;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 10%;
   text-align: center;
   background-color:white;
@@ -87,14 +87,25 @@ hr {
 .slideshow{
   padding-top:1%;
   max-height: inherit;
+  box-sizing:border-box
 }
 .slidebuttons{
-  padding-bottom:100px;
-}
-.contact{
+  padding-bottom:5%;
+  padding-top:5%;
 
+}
+.w3-button{
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+  
+
+.contact{
   border-top: solid black 2px;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-bottom: 5%;
   text-align: center;
   background-color:white;
