@@ -9,7 +9,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: black;
-  font-size: 24px;
+  font-size: 28px;
   position: fixed;
   width: 100%;
   z-index: 4;
@@ -42,7 +42,7 @@ li a:hover:not(.active) {
   padding-bottom: 0%;
   color: whitesmoke;
   text-align: center;
-  font-size: 300%;
+  font-size: 55px;
   z-index: 1;
 }
 #undertext{
@@ -199,4 +199,30 @@ to {background-position:-10000px 5000px;}
 @keyframes move-clouds-back {
 from {background-position:0 0;}
 to {background-position:10000px 0;}
+}
+
+#ubercontainer {
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  background-color: #ffefc6;
+  width: 500px;
+  margin: 20px auto;
+  padding: 30px 0;
+}
+#container {
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #4a6b82;
+  height: 78px;
+}
+.measurable {
+  position: absolute;
+  visibility: hidden;
+}
+
+.static.first, .static.second {
+  transition: transform 1s ease;
 }
