@@ -52,24 +52,32 @@ li a:hover:not(.active) {
 .about{
   border-top: solid black 2px;
   padding-top: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
   text-align: center;
   background-color: whitesmoke;
   display: table;
+}
+#abouttitle{
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 40px;
 }
 img{
   border-radius: 5%;
 }
 #aboutleft{
-  padding-left: 5%;
+  height: 300px;
+  width: 300px;;
+  padding-left: 10%;
 }
 #aboutright{
   display: table-cell;
   background-color: whitesmoke;
-  font-size: 22px;
+  font-size: 20px;
   vertical-align: middle;
   padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 20%;
 }
 hr {
   width: 20%;
@@ -79,7 +87,7 @@ hr {
 .projects{
   border-top: solid black 2px;
   padding-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   text-align: center;
   background-color:white;
 

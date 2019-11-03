@@ -86,4 +86,3 @@ setInterval(function(){
         });
     }, 50);
 }, 2000);
-
