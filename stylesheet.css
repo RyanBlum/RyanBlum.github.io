@@ -92,6 +92,7 @@ img{
     border: solid black 1px;
     border-radius: 10px;
     background-color: white;
+    
 }
 .containertwo{
     display: inline-flex;
@@ -117,6 +118,12 @@ img{
 .two{
     padding: 40px 50px 40px 0px;
     width: 100%;
+}
+
+iframe{
+    max-height: 200px;
+    max-width: 350px; 
+    padding-top: 30px;
 }
 
 
