@@ -13,12 +13,18 @@ ul {
     text-align: right;
     position: fixed;
     overflow: hidden;
-    background: lightgray;
+    background: #c0c0c0;
     z-index: 999999;
     opacity: 1.0;
     border-bottom: solid black 1px;
-
 }
+#container {
+    position: relative;
+    width: 50%;
+    padding-bottom: 0%;
+ }
+ 
+
 li {
     background-color: white;
     display: inline;
@@ -63,7 +69,7 @@ li a:hover{
     color: black;
  
 }
-img{
+.topimage{
     max-height: 80%;
     max-width: 70%;
     border-radius: 14px;
@@ -79,6 +85,14 @@ img{
     z-index: 999;
     font-weight: 500;
     color: white;
+    text-shadow:
+    -1px -1px 0 black,
+    0px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    0px 1px 0 black,
+    1px 1px 0 black;
+
 }
 .title{
     font-size: 55px;
@@ -139,7 +153,7 @@ iframe{
 footer{
     padding-top: 10px;
     height: 50px;
-    background-color: gray;
+    background-color: #c0c0c0;
     border-top: solid black 1px;
     text-align: center;
 }
