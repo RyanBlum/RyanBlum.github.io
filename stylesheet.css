@@ -4,10 +4,8 @@ body{
     margin: 0px;
     font-family: optima;
 }
-body.fade-out {
-    opacity: 0;
-    transition: none;
-}
+
+
 
 ul {
     list-style-type: none;
