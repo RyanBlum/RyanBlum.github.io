@@ -17,10 +17,12 @@ ul {
     margin: 0px;
     padding: 25px 300px 25px 0px;
     text-align: right;
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     z-index: 999999;
+    background-color: #c0c0c0; ;
     opacity: 1.0;
+    border-bottom: solid black 1px;
 
 }
 #container {
@@ -40,7 +42,7 @@ li {
     max-width: 100%;
     min-width: 100%;
     text-decoration: none;
-   
+   border: solid black 1px;
 }
 li a{
     padding: 5px;
@@ -145,17 +147,17 @@ li a:hover{
 }
 
 iframe{
-    max-height: 200px;
-    max-width: 350px; 
+    max-height: 500px;
+    width: 750px; 
     padding-top: 30px;
 }
 
 
 footer{
     padding-top: 10px;
-    height: 50px;
+    height: 200px;
     background-color: #c0c0c0;
-    border-top: solid black 1px;
+ 
     text-align: center;
 }
 

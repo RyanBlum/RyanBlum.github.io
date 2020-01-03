@@ -9,12 +9,14 @@
         <!--          -->
     </head>
 
-    <ul>
-            <div id="navbar"><div></div><div></div></div>
+    <div id="navbar">
+        <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-    </ul>
+        </ul>
+    </div>
+    
 <!-- -->
     <body>
 
@@ -59,7 +61,7 @@
                 </div>
                 <div class="two">
                     WaveGenerator<br>
-                    <iframe height="465" style="width: 100%;" scrolling="no" title="Sound Bars Animation" src="https://codepen.io/ryanjblum/embed/OJPxjeG?height=265&theme-id=default&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+                    <iframe height="665" style="width: 100%;" scrolling="no" title="Sound Bars Animation" src="https://codepen.io/ryanjblum/embed/OJPxjeG?height=265&theme-id=default&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
                         See the Pen <a href='https://codepen.io/ryanjblum/pen/OJPxjeG'>Sound Bars Animation</a> by Ryan James Blum
                         (<a href='https://codepen.io/ryanjblum'>@ryanjblum</a>) on <a href='https://codepen.io'>CodePen</a>.
                       </iframe><br><br>
@@ -93,6 +95,20 @@
            
         </div>
     
-    
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+              if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+              } else {
+                document.getElementById("navbar").style.top = "-500px";
+              }
+              prevScrollpos = currentScrollPos;
+            }
+        </script>
+        <footer>
+
+        </footer>
     </body>
 </html>
