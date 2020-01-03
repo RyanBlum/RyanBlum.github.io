@@ -110,25 +110,25 @@ li a:hover{
     background-color: lightgray;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 10%;
 
 }
 .containerone{
-    display: inline-flex;
+    align-items: center;
     width: 90%;
     border: solid black 1px;
-    border-radius: 10px;
+    border-radius: 8px;
     background-color: white;
+
     
 }
 .containertwo{
-    display: inline-flex;
     width: 90%;
     border: solid black 1px;
     border-radius: 10px;
     background-color: white;
     margin-top: 20px;
 }.containerthree{
-    display: inline-flex;
     width: 80%;
     border: solid black 1px;
     border-radius: 10px;
@@ -136,19 +136,28 @@ li a:hover{
     margin-top: 20px;
 }
 .one{
-    padding: 80px 50px 50px 0px;
-    width: 40%;
+    padding: 40px 100px 0px 100px;
     font-size: 22px;
 
 }
 .two{
-    padding: 40px 50px 40px 0px;
+    padding: 20px 100px 40px 0px;
     width: 100%;
+    font-size: 20px;
+}
+.paddingwrapper{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.paddingwrapper2{
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: left;
 }
 
 iframe{
     max-height: 500px;
-    width: 750px; 
+    width: 80%; 
     padding-top: 30px;
 }
 
@@ -161,3 +170,7 @@ footer{
     text-align: center;
 }
 
+hr{
+    align-items:center;
+    width: 100px;
+}
