@@ -6,7 +6,9 @@ body{
 }
 
 
+#navbar{
 
+}
 ul {
     list-style-type: none;
     min-width: 100%;
@@ -15,7 +17,6 @@ ul {
     text-align: right;
     position: absolute;
     overflow: hidden;
-
     z-index: 999999;
     opacity: 1.0;
 
@@ -29,10 +30,10 @@ ul {
 
 li {
     background-color: white;
+    opacity: 0.8;
     display: inline;
     padding: 7px;
     margin-right:10px;
-
     border-radius: 4px;
     max-width: 100%;
     min-width: 100%;
@@ -77,7 +78,8 @@ li a:hover{
     max-height: 80%;
     max-width: 70%;
     border-radius: 14px;
-    box-shadow: 10px 18px;
+    box-shadow: 10px 18px 10px rgba(0, 0, 0, 0.9);
+    
 }
 .right{
     width: 100%;
