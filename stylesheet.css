@@ -66,7 +66,7 @@ li a:hover{
 }
 .containertop{
     display: inline-flex;
-    width: 90%;
+    width: 100%;
     border-radius: 14px;
 
 }
