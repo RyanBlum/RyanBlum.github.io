@@ -138,12 +138,14 @@ li a:hover{
 .one{
     padding: 40px 100px 0px 100px;
     font-size: 22px;
+    
 
 }
 .two{
     padding: 20px 100px 40px 0px;
     width: 100%;
     font-size: 20px;
+
 }
 .paddingwrapper{
     padding-left: 80px;
